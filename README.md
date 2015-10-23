@@ -1,2 +1,6 @@
 # init
-a collection of scripts, settings and links to instantly in a new environment
+A collection of scripts, settings and links to instantly feel at home in a new environment
+
+## vim
+
+## dircolors
