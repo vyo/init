@@ -1,13 +1,12 @@
 #!/bin/sh
 
-cd "$HOME"
-
 mkdir "$HOME/.vim"
 touch "$HOME/.vim/vimrc"
 
 #   pathogen
-mkdir -p "$HOME/.vim/autoload" "~/.vim/bundle" && \
+mkdir -p "$HOME/.vim/autoload" "$HOME/.vim/bundle" && \
 curl -LSso "$HOME/.vim/autoload/pathogen.vim" https://tpo.pe/pathogen.vim
+
 cd "$HOME/.vim/bundle"
 
 #   molokai color scheme
