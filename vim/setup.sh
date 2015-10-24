@@ -1,5 +1,7 @@
 #!/bin/sh
 
+cd "$HOME"
+
 mkdir "$HOME/.vim"
 touch "$HOME/.vim/vimrc"
 

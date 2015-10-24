@@ -1,5 +1,7 @@
 #!/bin/sh
 
+cd "$HOME"
+
 mkdir "$HOME/.dircolors"
 cd "$HOME/.dircolors"
 git clone https://github.com/seebi/dircolors-solarized
