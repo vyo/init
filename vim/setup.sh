@@ -38,6 +38,7 @@ echo 'set shiftwidth=2\n' >> "$HOME/.vim/vimrc"
 echo 'set softtabstop=2\n' >> "$HOME/.vim/vimrc"
 echo 'set autoindent\n' >> "$HOME/.vim/vimrc"
 echo 'filetype plugin indent on\n' >> "$HOME/.vim/vimrc"
-echo 'au CursorHoldI * stopinsert\n'
-echo 'set ut=10000\n'
+echo 'au CursorHoldI * stopinsert\n' >> "$HOME/.vim/vimrc"
+echo 'set ut=10000\n' >> "$HOME/.vim/vimrc"
+
 
