@@ -28,17 +28,17 @@ git clone https://github.com/scrooloose/nerdtree
 git clone https://github.com/tpope/vim-fugitive
 
 
-echo 'execute pathogen#infect()\n' >> "$HOME/.vim/vimrc"
-echo 'set t_Co=256\n' >> "$HOME/.vim/vimrc"
-echo 'set background=dark\n' >> "$HOME/.vim/vimrc"
-echo 'syntax enable\n' >> "$HOME/.vim/vimrc"
-echo 'colorscheme molokai\n' >> "$HOME/.vim/vimrc"
-echo 'set expandtab\n' >> "$HOME/.vim/vimrc"
-echo 'set shiftwidth=2\n' >> "$HOME/.vim/vimrc"
-echo 'set softtabstop=2\n' >> "$HOME/.vim/vimrc"
-echo 'set autoindent\n' >> "$HOME/.vim/vimrc"
-echo 'filetype plugin indent on\n' >> "$HOME/.vim/vimrc"
-echo 'au CursorHoldI * stopinsert\n' >> "$HOME/.vim/vimrc"
-echo 'set ut=10000\n' >> "$HOME/.vim/vimrc"
+echo 'execute pathogen#infect()' >> "$HOME/.vim/vimrc"
+echo 'set t_Co=256' >> "$HOME/.vim/vimrc"
+echo 'set background=dark' >> "$HOME/.vim/vimrc"
+echo 'syntax enable' >> "$HOME/.vim/vimrc"
+echo 'colorscheme molokai' >> "$HOME/.vim/vimrc"
+echo 'set expandtab' >> "$HOME/.vim/vimrc"
+echo 'set shiftwidth=2' >> "$HOME/.vim/vimrc"
+echo 'set softtabstop=2' >> "$HOME/.vim/vimrc"
+echo 'set autoindent' >> "$HOME/.vim/vimrc"
+echo 'filetype plugin indent on' >> "$HOME/.vim/vimrc"
+echo 'au CursorHoldI * stopinsert' >> "$HOME/.vim/vimrc"
+echo 'set ut=10000' >> "$HOME/.vim/vimrc"
 
 
