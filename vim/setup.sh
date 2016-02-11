@@ -30,8 +30,11 @@ git clone https://github.com/scrooloose/nerdtree
 #   fugitive git wrapper
 git clone https://github.com/tpope/vim-fugitive
 
-#  markdown  syntax
+#   markdown  syntax
 git clone https://github.com/tpope/vim-markdown
+
+#   sneak movement extension
+git clone https://github.com/justinmk/vim-sneak
 
 echo 'execute pathogen#infect()' >> "$HOME/.vim/vimrc"
 echo 'set t_Co=256' >> "$HOME/.vim/vimrc"
