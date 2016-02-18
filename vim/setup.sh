@@ -33,6 +33,9 @@ git clone https://github.com/tpope/vim-fugitive
 #   markdown  syntax
 git clone https://github.com/tpope/vim-markdown
 
+#   gradle syntax
+git clone https://github.com/tfnico/vim-gradle
+
 #   sneak movement extension
 git clone https://github.com/justinmk/vim-sneak
 
