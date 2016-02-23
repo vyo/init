@@ -36,17 +36,5 @@ git clone https://github.com/tpope/vim-markdown
 #   sneak movement extension
 git clone https://github.com/justinmk/vim-sneak
 
-echo 'execute pathogen#infect()' >> "$HOME/.vim/vimrc"
-echo 'set t_Co=256' >> "$HOME/.vim/vimrc"
-echo 'set background=dark' >> "$HOME/.vim/vimrc"
-echo 'syntax enable' >> "$HOME/.vim/vimrc"
-echo 'colorscheme molokai' >> "$HOME/.vim/vimrc"
-echo 'set expandtab' >> "$HOME/.vim/vimrc"
-echo 'set shiftwidth=2' >> "$HOME/.vim/vimrc"
-echo 'set softtabstop=2' >> "$HOME/.vim/vimrc"
-echo 'set autoindent' >> "$HOME/.vim/vimrc"
-echo 'filetype plugin indent on' >> "$HOME/.vim/vimrc"
-echo 'au CursorHoldI * stopinsert' >> "$HOME/.vim/vimrc"
-echo 'set ut=10000' >> "$HOME/.vim/vimrc"
-
+cat vim.txt >> $HOME/.vim/vimrc
 

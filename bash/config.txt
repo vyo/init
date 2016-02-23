@@ -1,0 +1,13 @@
+alias ll='ls -l'
+alias la='ls -A'
+alias l='ls -CF'
+alias c='clear'
+alias e='echo -e'
+alias esc='sudo su'
+alias x='exit'
+alias go='cd'
+alias gt='cd'
+alias k='kill'
+alias s='shutdown'
+alias v='vim'
+
