@@ -1,4 +1,4 @@
 #!/bin/sh
 
-cat bash.txt >> $HOME/.bashrc
+cat config.txt >> $HOME/.bashrc
 

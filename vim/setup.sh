@@ -3,6 +3,8 @@
 mkdir "$HOME/.vim"
 touch "$HOME/.vim/vimrc"
 
+CURRENT=$(pwd)
+
 #   pathogen
 mkdir -p "$HOME/.vim/autoload" "$HOME/.vim/bundle" && \
 curl -LSso "$HOME/.vim/autoload/pathogen.vim" https://tpo.pe/pathogen.vim
@@ -39,5 +41,7 @@ git clone https://github.com/tfnico/vim-gradle
 #   sneak movement extension
 git clone https://github.com/justinmk/vim-sneak
 
-cat vim.txt >> $HOME/.vim/vimrc
+
+cd $CURRENT
+cat config.txt >> $HOME/.vim/vimrc
 

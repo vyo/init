@@ -10,4 +10,5 @@ alias gt='cd'
 alias k='kill'
 alias s='shutdown'
 alias v='vim'
+alias up='cd ..'
 
