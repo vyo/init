@@ -11,3 +11,8 @@ filetype plugin indent on
 au CursorHoldI * stopinsert
 set ut=10000
 
+set laststatus=2
+
+set encoding=utf8
+let g:airline_powerline_fonts=1
+
