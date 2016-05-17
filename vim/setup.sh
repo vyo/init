@@ -42,7 +42,7 @@ git clone https://github.com/tfnico/vim-gradle
 git clone https://github.com/justinmk/vim-sneak
 
 #   commenting out/in
-git clone git://github.com/tpope/vim-commentary.git
+git clone https://github.com/tpope/vim-commentary.git
 
 cd $CURRENT
 cat config.txt >> $HOME/.vim/vimrc
