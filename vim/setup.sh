@@ -44,6 +44,10 @@ git clone https://github.com/justinmk/vim-sneak
 #   commenting out/in
 git clone https://github.com/tpope/vim-commentary.git
 
+#   swift syntax
+git clone https://github.com/keith/swift.vim
+
+
 cd $CURRENT
 cat config.txt >> $HOME/.vim/vimrc
 
