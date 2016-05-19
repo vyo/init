@@ -16,3 +16,6 @@ set laststatus=2
 set encoding=utf8
 let g:airline_powerline_fonts=1
 
+set backspace=indent,eol,start
+syntax on
+
