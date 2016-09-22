@@ -47,6 +47,8 @@ git clone https://github.com/tpope/vim-commentary.git
 #   swift syntax
 git clone https://github.com/keith/swift.vim
 
+#   go development
+git clone https://github.com/fatih/vim-go
 
 cd $CURRENT
 cat config.txt >> $HOME/.vim/vimrc
