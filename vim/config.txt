@@ -19,3 +19,5 @@ let g:airline_powerline_fonts=1
 set backspace=indent,eol,start
 syntax on
 
+nmap <F8> :TagbarToggle<CR>
+

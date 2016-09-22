@@ -15,5 +15,6 @@ brew tap homebrew/completions
 
 cat config.txt >> $HOME/.bash_profile
 
-
+#   ctags for vim tagbar
+brew install ctags
 
