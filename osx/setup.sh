@@ -15,6 +15,10 @@ brew tap homebrew/completions
 
 cat config.txt >> $HOME/.bash_profile
 
+#   node
+brew install node
+
 #   ctags for vim tagbar
 brew install ctags
+npm install -g jsctags
 

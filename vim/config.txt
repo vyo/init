@@ -20,5 +20,7 @@ set number
 set backspace=indent,eol,start
 syntax on
 
+nmap <F5> :set paste!<CR>
 nmap <F8> :TagbarToggle<CR>
+nmap <F9> :set number!<CR>
 
