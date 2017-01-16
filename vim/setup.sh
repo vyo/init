@@ -53,6 +53,9 @@ git clone https://github.com/fatih/vim-go
 #   tagbar
 git clone https://github.com/majutsushi/tagbar
 
+#   async lint engine
+git clone https://github.com/w0rp/ale
+
 cd $CURRENT
 cat config.txt >> $HOME/.vim/vimrc
 
