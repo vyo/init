@@ -2,7 +2,7 @@
 
 git clone git://github.com/stephenway/monokai.terminal.git
 
-#   terminal colors 
+#   terminal colors
 cd monokai.terminal
 open monokai.terminal
 
@@ -21,4 +21,13 @@ brew install node
 #   ctags for vim tagbar
 brew install ctags
 npm install -g jsctags
+
+#   standardjs linter
+npm install standardjs
+
+#   ag (silver searcher, a grep/awk alternative)
+brew install the_silver_searcher
+
+#   ripgrep (an ag alternative)
+brew install ripgrep
 
