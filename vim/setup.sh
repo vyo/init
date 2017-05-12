@@ -12,7 +12,7 @@ curl -LSso "$HOME/.vim/autoload/pathogen.vim" https://tpo.pe/pathogen.vim
 cd "$HOME/.vim/bundle"
 
 #   molokai color scheme
-git clone https://github.com/tomasr/molokai 
+git clone https://github.com/tomasr/molokai
 
 #   Dockerfile syntax highlighting
 git clone https://github.com/ekalinin/Dockerfile.vim.git
@@ -55,6 +55,9 @@ git clone https://github.com/majutsushi/tagbar
 
 #   async lint engine
 git clone https://github.com/w0rp/ale
+
+#   kite python code hints
+git clone https://github.com/kiteco/vim-plugin
 
 cd $CURRENT
 cat config.txt >> $HOME/.vim/vimrc
