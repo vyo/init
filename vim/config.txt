@@ -9,12 +9,32 @@ set softtabstop=2
 set autoindent
 filetype plugin indent on
 au CursorHoldI * stopinsert
-set ut=10000
+set ut=3000
 
 set laststatus=2
 
 set encoding=utf8
+" airline settings
 let g:airline_powerline_fonts=1
+" Enable the list of buffers
+let g:airline#extensions#tabline#enabled = 1
+nmap T :bnext!<CR>
+
+" ALE lint engine settings
+let g:ale_sign_error = '⨉'
+let g:ale_sign_warning = '⚠'
+let g:ale_statusline_format = ['⨉ %d', '⚠ %d', '⬥ ok']
+let g:ale_linters = {
+ \   'javascript': ['standard'],
+ \}
+
+
+nmap <silent> <C-k> <Plug>(ale_previous_wrap)
+nmap <silent> <C-j> <Plug>(ale_next_wrap)
+
+" standard js linter
+" autocmd bufwritepost *.js silent !standard --fix %
+" set autoread
 
 set number
 set backspace=indent,eol,start
@@ -24,3 +44,17 @@ nmap <F5> :set paste!<CR>
 nmap <F8> :TagbarToggle<CR>
 nmap <F9> :set number!<CR>
 
+let g:tagbar_type_markdown = {
+    \ 'ctagstype': 'markdown',
+    \ 'ctagsbin' : '/Users/manu/.vim/bundle/markdown2ctags/markdown2ctags.py',
+    \ 'ctagsargs' : '-f - --sort=yes',
+    \ 'kinds' : [
+        \ 's:sections',
+        \ 'i:images'
+    \ ],
+    \ 'sro' : '|',
+    \ 'kind2scope' : {
+        \ 's' : 'section',
+    \ },
+    \ 'sort': 0,
+\ }

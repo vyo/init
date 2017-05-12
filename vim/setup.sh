@@ -62,3 +62,6 @@ git clone https://github.com/kiteco/vim-plugin
 cd $CURRENT
 cat config.txt >> $HOME/.vim/vimrc
 
+mkdir -p $HOME/.vim/autoload/airline/extensions
+cp ale.vim $HOME/.vim/autoload/airline/extensions/
+
