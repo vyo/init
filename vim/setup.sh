@@ -59,6 +59,9 @@ git clone https://github.com/w0rp/ale
 #   kite python code hints
 git clone https://github.com/kiteco/vim-plugin
 
+#   kotlin syntax highlighting
+git clone https://github.com/udalov/kotlin-vim
+
 cd $CURRENT
 cat config.txt >> $HOME/.vim/vimrc
 
