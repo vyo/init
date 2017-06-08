@@ -62,6 +62,9 @@ git clone https://github.com/kiteco/vim-plugin
 #   kotlin syntax highlighting
 git clone https://github.com/udalov/kotlin-vim
 
+#   dot repeat for complex commands/plugins
+git clone https://github.com/tpope/vim-repeat.git
+
 cd $CURRENT
 cat config.txt >> $HOME/.vim/vimrc
 
