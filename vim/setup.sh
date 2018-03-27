@@ -65,6 +65,12 @@ git clone https://github.com/udalov/kotlin-vim
 #   dot repeat for complex commands/plugins
 git clone https://github.com/tpope/vim-repeat.git
 
+#   uml description file syntax highlighting
+git clone https://github.com/aklt/plantuml-syntax
+
+#   uml in-place ascii rendering (sequence and basic components only)
+git clone https://github.com/scrooloose/vim-slumlord
+
 cd $CURRENT
 cat config.txt >> $HOME/.vim/vimrc
 
