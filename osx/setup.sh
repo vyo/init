@@ -31,3 +31,13 @@ brew install the_silver_searcher
 #   ripgrep (an ag alternative)
 brew install ripgrep
 
+brew install exa
+
+brew install bat
+
+brew install thefuck
+
+npm install --global jsonfui
+
+brew install jq
+
