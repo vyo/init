@@ -78,7 +78,7 @@ mkdir -p $HOME/.vim/autoload/airline/extensions
 cp ale.vim $HOME/.vim/autoload/airline/extensions/
 
 # dein plugin manager
-curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh | dein-setup.sh
+curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > dein-setup.sh
 bash dein-setup.sh "$HOME/.dein"
 rm dein-setup.sh
 vim '+call dein#install() +q!'

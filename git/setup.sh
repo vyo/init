@@ -1,3 +1,3 @@
 #!/bin/sh
 
-cat gitcolors.txt >> $HOME/.gitconfig
+cat gitcolors.txt >> "$HOME"/.gitconfig

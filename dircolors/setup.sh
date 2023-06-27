@@ -1,6 +1,6 @@
 #!/bin/sh
 
-CURRENT=$(pwd)
+CURRENT="$(pwd)"
 
 cd "$HOME"
 
